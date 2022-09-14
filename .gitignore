@@ -3,5 +3,7 @@
 /volumes/lnd/data/
 /volumes/lnd/letsencrypt/
 /volumes/lnd/logs/
+/volumes/lnd/tls.*
+/volumes/peerswap/log
 
 
