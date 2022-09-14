@@ -1,1 +1,7 @@
-/volumes
+/volumes/bitcoin/regtest/
+/volumes/elements/liquidregtest/
+/volumes/lnd/data/
+/volumes/lnd/letsencrypt/
+/volumes/lnd/logs/
+
+
