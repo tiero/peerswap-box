@@ -5,13 +5,13 @@ bitcoin-rpcuser=admin1
 bitcoin-rpcpassword=122 
 log-level=debug
 plugin=/root/.lightning/plugins/peerswap-plugin
-peerswap-bitcoin-rpchost=bitcoin ## Host of bitcoind rpc (default: localhost)
-peerswap-bitcoin-rpcport=18443 ## Port of bitcoind rpc (default: network-default)
-peerswap-bitcoin-rpcuser=admin1 ## User for bitcoind rpc
-peerswap-bitcoin-rpcpassword=123 ## Password for bitcoind rpc
-peerswap-elementsd-enabled ## Override liquid enable (default: true)
-peerswap-elementsd-rpchost=liquid ## Host of elementsd rpc (default: localhost)
-peerswap-elementsd-rpcport=18884 ## Port of elementsd rpc (default: 18888)
-peerswap-elementsd-rpcuser=admin1 ## User for elementsd rpc
-peerswap-elementsd-rpcpassword=123 ## Password for elementsd rpc
+peerswap-bitcoin-rpchost=bitcoin 
+peerswap-bitcoin-rpcport=18443
+peerswap-bitcoin-rpcuser=admin1
+peerswap-bitcoin-rpcpassword=123
+peerswap-elementsd-enabled 
+peerswap-elementsd-rpchost=liquid
+peerswap-elementsd-rpcport=18884
+peerswap-elementsd-rpcuser=admin1
+peerswap-elementsd-rpcpassword=123
 peerswap-elementsd-rpcwallet=""
