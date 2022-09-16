@@ -14,6 +14,13 @@
 docker-compose up -d
 ```
 
+* Check logs of Core LN
+
+```sh
+docker logs cln
+```
+
+
 * Check logs
 
 ```sh
