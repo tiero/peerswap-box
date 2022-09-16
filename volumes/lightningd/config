@@ -2,14 +2,10 @@ network=regtest
 alias=nigiri
 bitcoin-rpcconnect=bitcoin:18443
 bitcoin-rpcuser=admin1
-bitcoin-rpcpassword=122 
+bitcoin-rpcpassword=123
 log-level=debug
 plugin=/root/.lightning/plugins/peerswap-plugin
-peerswap-bitcoin-rpchost=bitcoin 
-peerswap-bitcoin-rpcport=18443
-peerswap-bitcoin-rpcuser=admin1
-peerswap-bitcoin-rpcpassword=123
-peerswap-elementsd-enabled 
+peerswap-elementsd-enabled=true
 peerswap-elementsd-rpchost=liquid
 peerswap-elementsd-rpcport=18884
 peerswap-elementsd-rpcuser=admin1
