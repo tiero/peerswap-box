@@ -70,7 +70,7 @@ services:
 
   peerswap:
     container_name: peerswap
-    image: ghcr.io/vulpemventures/peerswap:latest
+    build: .
     depends_on:
       - bitcoin
       - liquid
@@ -79,8 +79,8 @@ services:
       - 42069:42069
     restart: unless-stopped
     volumes:
-      - ./volumes/peerswap:/home/peerswap/.peerswap
-      - ./volumes/lnd:/home/peerswap/.lnd
+      - ./volumes/peerswap:/root/.peerswap
+      - ./volumes/lnd:/root/.lnd
 
 networks:
   default:
